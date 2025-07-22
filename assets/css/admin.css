@@ -1,0 +1,57 @@
+.member-fields .field-row,
+.team-fields .field-row {
+    margin-bottom: 15px;
+}
+
+.member-fields label,
+.team-fields label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.member-fields input[type="text"],
+.member-fields input[type="email"],
+.member-fields input[type="color"],
+.member-fields textarea,
+.team-fields textarea {
+    width: 100%;
+    max-width: 500px;
+}
+
+.member-fields textarea,
+.team-fields textarea {
+    min-height: 100px;
+}
+
+.image-preview img {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+.teams-checkboxes {
+    margin-top: 5px;
+}
+
+.teams-checkboxes label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+.submissions-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.submission {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.submission:last-child {
+    border-bottom: none;
+}
